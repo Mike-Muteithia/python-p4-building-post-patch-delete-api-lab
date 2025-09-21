@@ -8,6 +8,7 @@ metadata = MetaData(naming_convention={
 
 db = SQLAlchemy(metadata=metadata)
 
+
 class Bakery(db.Model, SerializerMixin):
     __tablename__ = 'bakeries'
 
